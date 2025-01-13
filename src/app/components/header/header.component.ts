@@ -6,7 +6,6 @@ import { DialogComponent } from '../dialog/dialog.component';
 
 @Component({
   selector: 'app-header',
-  standalone: true,
   imports: [RouterOutlet, AngularMaterialModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
@@ -24,5 +23,8 @@ export class HeaderComponent {
 
   navigateToDash() {
     this.route.navigate(['/dashboard']);
+  }
+  navigateToEventList() {
+    this.route.navigate(['/events']);
   }
 }

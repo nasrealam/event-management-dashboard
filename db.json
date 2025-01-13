@@ -13,6 +13,14 @@
       "eventStatus": "upcoming",
       "eventLocation": "sangam vihar",
       "id": 2
+    },
+    {
+      "eventName": "Nitish ki shadi",
+      "date": "2025-01-13T18:30:00.000Z",
+      "time": "2025-01-12T18:30:00.000Z",
+      "eventStatus": "upcoming",
+      "eventLocation": "sangam vihar",
+      "id": 3
     }
   ]
 }

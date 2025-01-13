@@ -28,7 +28,6 @@ import {
 
 @Component({
   selector: 'app-dialog',
-  standalone: true,
   imports: [
     CommonModule,
     FormsModule,
@@ -40,7 +39,6 @@ import {
     { provide: MAT_DATE_FORMATS, useValue: MAT_NATIVE_DATE_FORMATS },
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
-
   templateUrl: './dialog.component.html',
   styleUrl: './dialog.component.scss',
 })
@@ -59,6 +57,7 @@ export class DialogComponent implements OnInit {
     this.eventList = this.formBuilder.group({
       eventName: ['', Validators.required],
       date: ['', Validators.required],
+      time: ['', Validators.required],
       eventStatus: ['', Validators.required],
       eventLocation: ['', Validators.required],
     });

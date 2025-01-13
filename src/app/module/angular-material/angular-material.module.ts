@@ -13,7 +13,6 @@ import { MatListModule } from '@angular/material/list';
 import { MatTableModule } from '@angular/material/table';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
-import { NgxMatTimepickerModule } from 'ngx-mat-timepicker';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatTimepickerModule } from '@angular/material/timepicker';
 @NgModule({
@@ -33,7 +32,6 @@ import { MatTimepickerModule } from '@angular/material/timepicker';
     MatInputModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    NgxMatTimepickerModule,
     MatTimepickerModule,
   ],
   exports: [
@@ -50,7 +48,6 @@ import { MatTimepickerModule } from '@angular/material/timepicker';
     MatDatepickerModule,
     MatRadioModule,
     MatNativeDateModule,
-    NgxMatTimepickerModule,
     MatTimepickerModule,
   ],
 })

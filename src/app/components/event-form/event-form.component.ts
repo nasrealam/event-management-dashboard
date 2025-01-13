@@ -3,11 +3,10 @@ import { MatDialog } from '@angular/material/dialog';
 import { DialogComponent } from '../dialog/dialog.component';
 
 @Component({
-  selector: 'app-event-form',
-  standalone: true,
-  imports: [],
-  templateUrl: './event-form.component.html',
-  styleUrl: './event-form.component.scss',
+    selector: 'app-event-form',
+    imports: [],
+    templateUrl: './event-form.component.html',
+    styleUrl: './event-form.component.scss'
 })
 export class EventFormComponent {
   constructor(private dialog: MatDialog) {}
