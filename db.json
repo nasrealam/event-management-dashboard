@@ -1,0 +1,18 @@
+{
+  "eventList": [
+    {
+      "eventName": "shadi",
+      "date": "2024-12-03T18:30:00.000Z",
+      "eventStatus": "completed",
+      "eventLocation": "New delhi",
+      "id": 1
+    },
+    {
+      "eventName": "barat",
+      "date": "2025-01-01T18:30:00.000Z",
+      "eventStatus": "upcoming",
+      "eventLocation": "sangam vihar",
+      "id": 2
+    }
+  ]
+}

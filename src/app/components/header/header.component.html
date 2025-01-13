@@ -1,0 +1,50 @@
+<mat-toolbar color="primary">
+  <button
+    mat-icon-button
+    (click)="drawer.toggle()"
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Event Management Dashboard</span>
+  <span class="example-spacer"></span>
+  <button mat-raised-button color="warn" (click)="openDialog()">
+    Add Event
+  </button>
+</mat-toolbar>
+
+<!-- sidebar content -->
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer mode="side" opened="true" #drawer>
+    <mat-nav-list>
+      <mat-list-item>
+        <button
+          mat-icon-button
+          (click)="navigateToDash()"
+          class="example-icon"
+          aria-label="Example icon-button with menu icon"
+        >
+          <mat-icon>dashboard</mat-icon>
+          Dashboard
+        </button>
+      </mat-list-item>
+      <mat-list-item>
+        <button
+          mat-icon-button
+          (click)="navigateToDash()"
+          class="example-icon"
+          aria-label="Example icon-button with menu icon"
+        >
+          <mat-icon>event</mat-icon>
+          Event List
+        </button>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-drawer>
+  <mat-drawer-content>
+    <div>
+      <router-outlet></router-outlet>
+    </div>
+  </mat-drawer-content>
+</mat-drawer-container>
