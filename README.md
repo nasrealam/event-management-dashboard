@@ -1,27 +1,67 @@
-# EventManagementDashboard
+# Event Management Dashboard (Frontend)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+This project is an event management dashboard designed to manage events and display analytics using a responsive and interactive user interface. Below are the details of the technologies used and features implemented.
 
-## Development server
+## Technologies Used
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Angular**: Version 19, used as the primary framework for building a dynamic and modular frontend.
+- **Angular Material**: Version 19, utilized for designing responsive and consistent UI components.
+- **SweetAlert2**: A lightweight library used for displaying success, delete, and other messages with beautiful alerts.
+- **swimlane/ngx-charts**: Version 21.0.0, used to create visually appealing charts for displaying analytics on the dashboard.
+- **JSON-Server**: A simple library used as a mock backend to save and fetch event data for the application.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **Event Management**:
 
-## Build
+   - Users can create, view, edit, and delete events.
+   - Event attributes include:
+     - Event Name
+     - Date & Time
+     - Location
+     - Status (Upcoming, Ongoing, Completed)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. **Analytics Dashboard**:
 
-## Running unit tests
+   - Displays the total number of events.
+   - Categorizes events based on their status (Upcoming, Ongoing, Completed).
+   - Highlights the next upcoming event.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. **Paginated Event List**:
 
-## Running end-to-end tests
+   - Lists all events in a paginated table.
+   - Sorting by date, name, or status.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. **Search and Filters**:
 
-## Further help
+   - Search for events by name or location.
+   - Filter events by status.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+5. **Responsive Design**:
+   - Fully responsive for both desktop and mobile devices.
+
+## How to Run Locally
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+- Angular CLI installed globally.
+
+### Steps to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/nasrealam/event-management-dashboard.git
+
+   ```
+
+2. Navigate to the project directory:
+   cd <project-directory>
+
+3. Open vs code terminal & Install dependencies:
+   run npm install,
+   After npm install run ng serve or ng s
+
+4. Start another terminal without killing the existing one.
+   Run json-server --watch db.json --port 3100
