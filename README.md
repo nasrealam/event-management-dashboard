@@ -68,8 +68,16 @@ This project is an event management dashboard designed to manage events and disp
  npm install
 ```
 
+then
+
 ```bash
  ng serve
+```
+
+or
+
+```bash
+ ng s
 ```
 
 4. Start another terminal without killing the existing one.
