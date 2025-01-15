@@ -9,6 +9,7 @@ import { DialogRef } from '@angular/cdk/dialog';
 import { MatDialog } from '@angular/material/dialog';
 import { DialogComponent } from '../dialog/dialog.component';
 import { DeferBlockBehavior } from '@angular/core/testing';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
 @Component({
   selector: 'app-event-list',
@@ -31,7 +32,27 @@ export class EventListComponent implements OnInit, AfterViewInit {
   @ViewChild(MatPaginator)
   paginator!: MatPaginator;
 
-  constructor(private srv: EventService, private dialog: MatDialog) {}
+  constructor(
+    private srv: EventService,
+    private dialog: MatDialog,
+    private breakpointObserver: BreakpointObserver
+  ) {
+    this.breakpointObserver
+      .observe([Breakpoints.Handset])
+      .subscribe((result) => {
+        this.displayedColumns = result.matches
+          ? ['eventName', 'date', 'time', 'action'] // Compact columns for mobile
+          : [
+              'id',
+              'eventName',
+              'date',
+              'time',
+              'eventStatus',
+              'eventLocation',
+              'action',
+            ]; // Full columns for desktop
+      });
+  }
 
   ngOnInit(): void {
     this.getData();

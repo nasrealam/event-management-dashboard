@@ -1,4 +1,4 @@
-<mat-toolbar color="primary">
+<mat-toolbar color="primary" class="responsive-toolbar">
   <button
     mat-icon-button
     (click)="drawer.toggle()"
@@ -9,21 +9,21 @@
   </button>
   <span>Event Management</span>
   <span class="example-spacer"></span>
-  <button mat-raised-button color="light" (click)="openDialog()">
+  <button mat-raised-button color="accent" (click)="openDialog()">
     Add Event
   </button>
 </mat-toolbar>
 
-<!-- sidebar content -->
-<mat-drawer-container class="example-container" autosize>
-  <mat-drawer mode="side" opened="true" #drawer>
+<mat-drawer-container class="responsive-drawer-container" autosize>
+  <mat-drawer mode="over" opened="true" #drawer class="responsive-drawer">
     <mat-nav-list>
       <mat-list-item>
         <button
           mat-icon-button
           (click)="navigateToDash()"
+          (click)="onSidebarButtonClick(drawer)"
           class="example-icon"
-          aria-label="Example icon-button with menu icon"
+          aria-label="Example icon-button with dashboard icon"
         >
           <mat-icon>dashboard</mat-icon>
           Dashboard
@@ -33,8 +33,9 @@
         <button
           mat-icon-button
           (click)="navigateToEventList()"
+          (click)="onSidebarButtonClick(drawer)"
           class="example-icon"
-          aria-label="Example icon-button with menu icon"
+          aria-label="Example icon-button with event icon"
         >
           <mat-icon>event</mat-icon>
           Event List

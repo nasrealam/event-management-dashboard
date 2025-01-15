@@ -1,15 +1,32 @@
+/* General Styles */
+.responsive-toolbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .example-spacer {
   flex: 1 1 auto;
 }
 
-mat-drawer {
-  width: 15%;
+/* Adjust drawer width for mobile screens */
+.responsive-drawer {
+  width: 15%; /* Default width */
 }
 
-.example-container {
-  height: 543px;
-}
+@media (max-width: 768px) {
+  .responsive-drawer {
+    width: 52vw; /* 15% width for mobile screens */
+    font-size: 10px;
+  }
 
-mat-icon {
-  background: transparent;
+  .responsive-drawer-container {
+    height: 100vh;
+  }
+
+  .responsive-toolbar {
+    flex-wrap: wrap;
+    padding: 8px;
+  }
 }

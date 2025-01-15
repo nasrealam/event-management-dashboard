@@ -8,11 +8,12 @@
       {{ nextUpcomingEvent.eventLocation }}
     </p>
   </div>
-
-  <ngx-charts-pie-grid
-    [results]="pieChartData"
-    [scheme]="colorScheme"
-    [animations]="true"
-  >
-  </ngx-charts-pie-grid>
+  <div class="chart-container">
+    <ngx-charts-pie-grid
+      [results]="pieChartData"
+      [scheme]="colorScheme"
+      [animations]="true"
+    >
+    </ngx-charts-pie-grid>
+  </div>
 </div>
