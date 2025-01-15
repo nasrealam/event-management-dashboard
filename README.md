@@ -57,11 +57,14 @@ This project is an event management dashboard designed to manage events and disp
    ```
 
 2. Navigate to the project directory:
-   cd <project-directory>
+
+- cd <project-directory>
 
 3. Open vs code terminal & Install dependencies:
-   run npm install,
-   After npm install run ng serve or ng s
+
+- run npm install,
+- After npm install run ng serve or ng s
 
 4. Start another terminal without killing the existing one.
-   Run json-server --watch db.json --port 3100
+
+- Run json-server --watch db.json --port 3100
