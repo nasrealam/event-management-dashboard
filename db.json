@@ -41,15 +41,7 @@
       "id": 8
     },
     {
-      "eventName": "Gochha",
-      "date": "2025-01-23T18:30:00.000Z",
-      "time": "2025-01-12T19:30:00.000Z",
-      "eventStatus": "completed",
-      "eventLocation": "New Delhi, saket",
-      "id": 9
-    },
-    {
-      "eventName": "Alag banda",
+      "eventName": "Hotel sobrati",
       "date": "2025-01-21T18:30:00.000Z",
       "time": "2025-01-12T18:30:00.000Z",
       "eventStatus": "upcoming",
@@ -69,8 +61,24 @@
       "date": "2025-01-14T18:30:00.000Z",
       "time": "2025-01-12T19:00:00.000Z",
       "eventStatus": "upcoming",
-      "eventLocation": "Gonda, Up",
+      "eventLocation": "New Delhi, Sangam Vihar",
       "id": 12
+    },
+    {
+      "eventName": "Restaurant Inauguration ",
+      "date": "2025-01-29T18:30:00.000Z",
+      "time": "2025-01-14T19:30:00.000Z",
+      "eventStatus": "upcoming",
+      "eventLocation": "Suraj kund, New Delhi",
+      "id": 13
+    },
+    {
+      "eventName": "Hotel inauguration ",
+      "date": "2025-01-22T18:30:00.000Z",
+      "time": "2025-01-14T20:30:00.000Z",
+      "eventStatus": "upcoming",
+      "eventLocation": "New Delhi",
+      "id": 14
     }
   ]
 }

@@ -1,4 +1,8 @@
 <div class="mat-elevation-z8">
+  <mat-form-field appearance="outline">
+    <mat-label>Search and filter Events</mat-label>
+    <input matInput (keyup)="applyFilter($event)" placeholder="Filter" />
+  </mat-form-field>
   <table mat-table [dataSource]="eventLists">
     <!--- Note that these columns can be defined in any order.
         The actual rendered columns are set as a property on the row definition" -->

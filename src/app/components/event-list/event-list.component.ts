@@ -91,4 +91,16 @@ export class EventListComponent implements OnInit, AfterViewInit {
       this.getData();
     });
   }
+
+  applyFilter(event: Event) {
+    const input = event.target as HTMLInputElement; // Explicitly cast target to HTMLInputElement
+    const filterValue = input?.value || ''; // Handle potential null or undefined values
+    this.eventLists.filter = filterValue.trim().toLowerCase();
+
+    console.log(this.eventLists.filter);
+
+    if (this.eventLists.paginator) {
+      this.eventLists.paginator.firstPage();
+    }
+  }
 }
