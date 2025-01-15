@@ -16,6 +16,7 @@ export class HeaderComponent {
   openDialog() {
     this.dialog.open(DialogComponent, {
       width: '30%',
+      data: {},
     });
   }
 

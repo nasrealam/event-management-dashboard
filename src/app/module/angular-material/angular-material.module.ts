@@ -11,10 +11,12 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatTimepickerModule } from '@angular/material/timepicker';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 @NgModule({
   declarations: [],
   imports: [
@@ -27,12 +29,14 @@ import { MatTimepickerModule } from '@angular/material/timepicker';
     MatSidenavModule,
     MatListModule,
     MatTableModule,
+    MatPaginatorModule,
     MatRadioModule,
     MatFormFieldModule,
     MatInputModule,
     MatDatepickerModule,
     MatNativeDateModule,
     MatTimepickerModule,
+    NgxChartsModule
   ],
   exports: [
     MatToolbarModule,
@@ -45,10 +49,12 @@ import { MatTimepickerModule } from '@angular/material/timepicker';
     MatSidenavModule,
     MatListModule,
     MatTableModule,
+    MatPaginatorModule,
     MatDatepickerModule,
     MatRadioModule,
     MatNativeDateModule,
     MatTimepickerModule,
+    NgxChartsModule
   ],
 })
 export class AngularMaterialModule {

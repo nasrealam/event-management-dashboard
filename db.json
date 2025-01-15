@@ -1,26 +1,76 @@
 {
   "eventList": [
     {
-      "eventName": "shadi",
-      "date": "2024-12-03T18:30:00.000Z",
-      "eventStatus": "completed",
-      "eventLocation": "New delhi",
-      "id": 1
-    },
-    {
-      "eventName": "barat",
-      "date": "2025-01-01T18:30:00.000Z",
-      "eventStatus": "upcoming",
-      "eventLocation": "sangam vihar",
+      "eventName": "Parwez ki barat",
+      "date": "2025-02-11T18:30:00.000Z",
+      "time": "2025-01-12T20:00:00.000Z",
+      "eventStatus": "ongoing",
+      "eventLocation": "Siwan, Bihar",
       "id": 2
     },
     {
-      "eventName": "Nitish ki shadi",
-      "date": "2025-01-13T18:30:00.000Z",
+      "eventName": "Asif bhai ki shadi",
+      "date": "2025-01-14T18:30:00.000Z",
+      "time": "2025-01-13T04:30:00.000Z",
+      "eventStatus": "upcoming",
+      "eventLocation": "Delhi",
+      "id": 4
+    },
+    {
+      "eventName": "Sohail bhaiya ki shadi",
+      "date": "2023-06-14T18:30:00.000Z",
+      "time": "2025-01-12T19:00:00.000Z",
+      "eventStatus": "completed",
+      "eventLocation": "Siwan, Bihar",
+      "id": 5
+    },
+    {
+      "eventName": "Nitish ka tilak",
+      "date": "2025-01-12T18:30:00.000Z",
+      "time": "2025-01-12T18:30:00.000Z",
+      "eventStatus": "ongoing",
+      "eventLocation": "bathra",
+      "id": 7
+    },
+    {
+      "eventName": "Rehan ki engagement ",
+      "date": "2026-06-10T18:30:00.000Z",
+      "time": "2025-01-12T20:00:00.000Z",
+      "eventStatus": "upcoming",
+      "eventLocation": "Up Gonda",
+      "id": 8
+    },
+    {
+      "eventName": "Gochha",
+      "date": "2025-01-23T18:30:00.000Z",
+      "time": "2025-01-12T19:30:00.000Z",
+      "eventStatus": "completed",
+      "eventLocation": "New Delhi, saket",
+      "id": 9
+    },
+    {
+      "eventName": "Alag banda",
+      "date": "2025-01-21T18:30:00.000Z",
+      "time": "2025-01-12T18:30:00.000Z",
+      "eventStatus": "upcoming",
+      "eventLocation": "Sangam vihar",
+      "id": 10
+    },
+    {
+      "eventName": "Sonu sikari",
+      "date": "2025-01-03T18:30:00.000Z",
       "time": "2025-01-12T18:30:00.000Z",
       "eventStatus": "upcoming",
       "eventLocation": "sangam vihar",
-      "id": 3
+      "id": 11
+    },
+    {
+      "eventName": "Rehan ki shadiiiiii",
+      "date": "2025-01-14T18:30:00.000Z",
+      "time": "2025-01-12T19:00:00.000Z",
+      "eventStatus": "upcoming",
+      "eventLocation": "Gonda, Up",
+      "id": 12
     }
   ]
 }

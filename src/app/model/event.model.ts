@@ -1,8 +1,8 @@
-export interface Event {
+export interface EventTypes {
   id: number;
   name: string;
   date: Date;
   time: Date;
-  location: string;
   status: 'Upcoming' | 'Ongoing' | 'Completed';
+  location: string;
 }
