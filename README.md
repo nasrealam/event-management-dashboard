@@ -58,7 +58,9 @@ This project is an event management dashboard designed to manage events and disp
 
 2. Navigate to the project directory:
 
-- cd <project-directory>
+```bash
+ cd <project-directory>
+```
 
 3. Open vs code terminal & Install dependencies:
 
