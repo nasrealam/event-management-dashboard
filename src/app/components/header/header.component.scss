@@ -12,12 +12,12 @@
 
 /* Adjust drawer width for mobile screens */
 .responsive-drawer {
-  width: 15%; /* Default width */
+  width: 15%;
 }
 
 @media (max-width: 768px) {
   .responsive-drawer {
-    width: 52vw; /* 15% width for mobile screens */
+    width: 52vw;
     font-size: 10px;
   }
 
