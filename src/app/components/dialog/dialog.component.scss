@@ -1,9 +1,36 @@
+// mat-form-field {
+//   width: 90%;
+//   margin-left: 15px;
+//   padding: 0px 8px;
+// }
+
+// h1 {
+//   text-align: center;
+// }
+
 mat-form-field {
-  width: 90%;
-  margin-left: 15px;
+  width: 90%; /* Keep the width consistent for all screens */
+  margin-left: 15px; /* Space for desktop */
   padding: 0px 8px;
 }
 
 h1 {
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  mat-form-field {
+    margin-left: 8px; /* Reduced margin for smaller screens */
+    padding: 0px 4px;
+  }
+
+  h1 {
+    font-size: 18px; /* Slightly smaller text size for mobile */
+  }
+
+  div[mat-dialog-actions] {
+    justify-content: center; /* Center-align buttons for mobile */
+    gap: 8px; /* Reduce the gap between buttons */
+    margin-left: 0; /* Remove left margin */
+  }
 }

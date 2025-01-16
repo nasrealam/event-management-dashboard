@@ -38,8 +38,10 @@ export class HeaderComponent {
 
   // function for open the form dialog
   openDialog() {
+    const isMobile = this.breakpointObserver.isMatched('(max-width: 768px)');
+
     this.dialog.open(DialogComponent, {
-      width: '30%',
+      width: isMobile ? '95%' : '50%',
       data: {},
     });
   }
