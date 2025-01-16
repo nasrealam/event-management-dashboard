@@ -83,5 +83,5 @@ or
 4. Start another terminal without killing the existing one.
 
 ```bash
-json-server --watch db.json --port 3100
+npx json-server --watch db.json --port 3100
 ```
