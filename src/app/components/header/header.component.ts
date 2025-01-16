@@ -13,6 +13,7 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 })
 export class HeaderComponent {
   isMobile: boolean = false;
+  drawerMode: 'side' | 'over' = 'side';
   title = 'Event Management';
 
   constructor(
@@ -24,14 +25,8 @@ export class HeaderComponent {
       .observe([Breakpoints.Handset])
       .subscribe((result) => {
         this.isMobile = result.matches;
+        this.drawerMode = this.isMobile ? 'over' : 'side';
       });
-    this.setInitialTheme();
-  }
-
-  // Toggle between Light and Dark Theme
-  toggleTheme(): void {
-    const body = document.body;
-    body.classList.toggle('dark-theme');
   }
 
   // Close the sidebar when clicking a button in mobile mode
@@ -41,13 +36,6 @@ export class HeaderComponent {
     }
   }
 
-  // Set the initial theme (Light by default)
-  private setInitialTheme(): void {
-    const isDarkMode = localStorage.getItem('theme') === 'dark';
-    if (isDarkMode) {
-      document.body.classList.add('dark-theme');
-    }
-  }
   // function for open the form dialog
   openDialog() {
     this.dialog.open(DialogComponent, {

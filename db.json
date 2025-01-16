@@ -1,84 +1,172 @@
 {
   "eventList": [
     {
-      "eventName": "Parwez ki barat",
+      "eventName": "Annual Tech Conference",
       "date": "2025-02-11T18:30:00.000Z",
       "time": "2025-01-12T20:00:00.000Z",
       "eventStatus": "ongoing",
-      "eventLocation": "Siwan, Bihar",
+      "eventLocation": "San Francisco, CA",
       "id": 2
     },
     {
-      "eventName": "Asif bhai ki shadi",
-      "date": "2025-01-14T18:30:00.000Z",
+      "eventName": "Wedding of John and Sarah",
+      "date": "2025-02-14T00:00:00.000Z",
       "time": "2025-01-13T04:30:00.000Z",
       "eventStatus": "upcoming",
-      "eventLocation": "Delhi",
+      "eventLocation": "Miami Beach, FL",
       "id": 4
     },
     {
-      "eventName": "Sohail bhaiya ki shadi",
+      "eventName": "Startup Pitch Day",
       "date": "2023-06-14T18:30:00.000Z",
       "time": "2025-01-12T19:00:00.000Z",
       "eventStatus": "completed",
-      "eventLocation": "Siwan, Bihar",
+      "eventLocation": "Palo Alto, CA",
       "id": 5
     },
     {
-      "eventName": "Nitish ka tilak",
+      "eventName": "School Reunion - Batch of 2005",
       "date": "2025-01-12T18:30:00.000Z",
       "time": "2025-01-12T18:30:00.000Z",
       "eventStatus": "ongoing",
-      "eventLocation": "bathra",
+      "eventLocation": "Austin, TX",
       "id": 7
     },
     {
-      "eventName": "Rehan ki engagement ",
+      "eventName": "Art Exhibition Opening Night",
       "date": "2026-06-10T18:30:00.000Z",
       "time": "2025-01-12T20:00:00.000Z",
       "eventStatus": "upcoming",
-      "eventLocation": "Up Gonda",
+      "eventLocation": "Chicago, IL",
       "id": 8
     },
     {
-      "eventName": "Hotel sobrati",
+      "eventName": "New Product Launch Event",
       "date": "2025-01-21T18:30:00.000Z",
       "time": "2025-01-12T18:30:00.000Z",
       "eventStatus": "upcoming",
-      "eventLocation": "Sangam vihar",
+      "eventLocation": "Seattle, WA",
       "id": 10
     },
     {
-      "eventName": "Sonu sikari",
+      "eventName": "Graduation Ceremony",
       "date": "2025-01-03T18:30:00.000Z",
       "time": "2025-01-12T18:30:00.000Z",
       "eventStatus": "upcoming",
-      "eventLocation": "sangam vihar",
+      "eventLocation": "Boston, MA",
       "id": 11
     },
     {
-      "eventName": "Rehan ki shadiiiiii",
+      "eventName": "Corporate Team Building Retreat",
       "date": "2025-01-14T18:30:00.000Z",
       "time": "2025-01-12T19:00:00.000Z",
       "eventStatus": "upcoming",
-      "eventLocation": "New Delhi, Sangam Vihar",
+      "eventLocation": "Lake Tahoe, NV",
       "id": 12
     },
     {
-      "eventName": "Restaurant Inauguration ",
+      "eventName": "Concert: The Rolling Stones Live",
       "date": "2025-01-29T18:30:00.000Z",
       "time": "2025-01-14T19:30:00.000Z",
       "eventStatus": "upcoming",
-      "eventLocation": "Suraj kund, New Delhi",
+      "eventLocation": "Los Angeles, CA",
       "id": 13
     },
     {
-      "eventName": "Hotel inauguration ",
+      "eventName": "Annual Book Fair",
       "date": "2025-01-22T18:30:00.000Z",
       "time": "2025-01-14T20:30:00.000Z",
       "eventStatus": "upcoming",
-      "eventLocation": "New Delhi",
+      "eventLocation": "Portland, OR",
       "id": 14
+    },
+    {
+      "eventName": "Yoga Retreat",
+      "date": "2025-01-30T18:30:00.000Z",
+      "time": "2025-01-15T18:30:00.000Z",
+      "eventStatus": "upcoming",
+      "eventLocation": "Sedona, AZ",
+      "id": 15
+    },
+    {
+      "eventName": "Marathon - 10K Fun Run",
+      "date": "2025-01-07T18:30:00.000Z",
+      "time": "2025-01-15T18:30:00.000Z",
+      "eventStatus": "completed",
+      "eventLocation": "San Diego, CA",
+      "id": 16
+    },
+    {
+      "eventName": "Realtors' Networking Event",
+      "date": "2025-01-19T18:30:00.000Z",
+      "time": "2025-01-15T19:00:00.000Z",
+      "eventStatus": "upcoming",
+      "eventLocation": "Houston, TX",
+      "id": 17
+    },
+    {
+      "eventName": "Food Truck Festival",
+      "date": "2025-01-15T18:30:00.000Z",
+      "time": "2025-01-15T19:00:00.000Z",
+      "eventStatus": "ongoing",
+      "eventLocation": "Denver, CO",
+      "id": 18
+    },
+    {
+      "eventName": "TEDx Talks",
+      "date": "2025-01-15T18:30:00.000Z",
+      "time": "2025-01-15T19:30:00.000Z",
+      "eventStatus": "ongoing",
+      "eventLocation": "Las Vegas, NV",
+      "id": 19
+    },
+    {
+      "eventName": "Photography Workshop",
+      "date": "2025-01-16T18:30:00.000Z",
+      "time": "2025-01-15T19:30:00.000Z",
+      "eventStatus": "upcoming",
+      "eventLocation": "Jamia Hamdard, New Delhi",
+      "id": 20
+    },
+    {
+      "eventName": "Coding Bootcamp",
+      "date": "2025-01-12T18:30:00.000Z",
+      "time": "2025-01-15T18:30:00.000Z",
+      "eventStatus": "completed",
+      "eventLocation": "Silicon Valley, CA",
+      "id": 21
+    },
+    {
+      "eventName": "Beach Cleanup Drive",
+      "date": "2025-01-14T18:30:00.000Z",
+      "time": "2025-01-15T19:00:00.000Z",
+      "eventStatus": "completed",
+      "eventLocation": "Santa Monica, CA",
+      "id": 22
+    },
+    {
+      "eventName": "Wine Tasting Tour",
+      "date": "2025-01-06T18:30:00.000Z",
+      "time": "2025-01-15T18:30:00.000Z",
+      "eventStatus": "completed",
+      "eventLocation": "Napa Valley, CA",
+      "id": 23
+    },
+    {
+      "eventName": "Music Festival - Summer Beats 2025",
+      "date": "2025-01-19T18:30:00.000Z",
+      "time": "2025-01-15T19:00:00.000Z",
+      "eventStatus": "ongoing",
+      "eventLocation": "Austin, TX",
+      "id": 24
+    },
+    {
+      "eventName": "Comedy Night Live",
+      "date": "2025-01-15T18:30:00.000Z",
+      "time": "2025-01-15T19:00:00.000Z",
+      "eventStatus": "ongoing",
+      "eventLocation": "Chicago, IL",
+      "id": 25
     }
   ]
 }

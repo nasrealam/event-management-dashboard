@@ -15,7 +15,12 @@
 </mat-toolbar>
 
 <mat-drawer-container class="responsive-drawer-container" autosize>
-  <mat-drawer mode="over" opened="true" #drawer class="responsive-drawer">
+  <mat-drawer
+    [mode]="drawerMode"
+    [opened]="!isMobile"
+    #drawer
+    class="responsive-drawer"
+  >
     <mat-nav-list>
       <mat-list-item>
         <button
